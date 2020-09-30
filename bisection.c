@@ -27,6 +27,7 @@ main()
        printf("number pf iterations : %d \n",i);
        printf("root :%f \n",x2);
        printf("value of function : %f \n",f2);
-    } while (fabs(f2)>e);
+    } 
+    while (fabs(f2)>e);
     getch();
 }
