@@ -18,9 +18,7 @@ main()
        x2 = (x0+x1)/2;
        f2 = f(x2);
        if (f0*f2<0)
-       {
-           x1 = x2;
-       }
+          x1 = x2;
        else
        {
            x0 = x2;
@@ -29,6 +27,7 @@ main()
        printf("number pf iterations : %d \n",i);
        printf("root :%f \n",x2);
        printf("value of function : %f \n",f2);
-    } while (fabs(f2)>e);
+    } 
+    while (fabs(f2)>e);
     getch();
 }
